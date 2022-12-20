@@ -13,7 +13,7 @@ import java.util.Map;
 @RequiredArgsConstructor
 @Controller
 public class UserController {
-    @GetMapping("")
+    @GetMapping("/")
     public ResponseEntity<List<Map<String, Integer>>> test() {
         List<Map<String, Integer>> list = new ArrayList<>();
 
